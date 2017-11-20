@@ -18,13 +18,13 @@
 
             <TextView
                 android:id="@+id/lblURL"
-                android:layout_width="match_parent"
+                android:layout_width="89dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="TextView" />
+                android:text="URL:" />
 
             <EditText
-                android:id="@+id/editText"
+                android:id="@+id/txtURL"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -33,11 +33,12 @@
                 android:text="Name" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btnURL"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:onClick="accederWeb"
+                android:text="IR" />
         </LinearLayout>
 
     </LinearLayout>
